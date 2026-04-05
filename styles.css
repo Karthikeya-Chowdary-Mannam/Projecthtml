@@ -1,0 +1,123 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFDD0; /* Cream background */
+    color: #5D4037; /* Brown text */
+    scroll-behavior: smooth;
+}
+
+#hero {
+    background-color: #5D4037;
+    color: #FFFDD0;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    padding: 10% 8%;
+    box-sizing: border-box; /* Box Model from Week 6 */
+}
+
+#hero h1 {
+    font-size: 5em;
+    line-height: 0.85;
+    margin: 0;
+}
+
+.badge {
+    display: inline-block;
+    border: 2px solid #FFFDD0;
+    padding: 8px 15px;
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-container {
+    margin-top: 60px;
+}
+
+.menu-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-container li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.menu-container a {
+    color: #FFFDD0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.hero-footer {
+    margin-top: 100px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#content-flow {
+    width: 100%;
+    padding: 80px 8%;
+    box-sizing: border-box;
+}
+
+.section {
+    margin-bottom: 70px; /* Reduced distance for continuous feel */
+    max-width: 850px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 3px solid #5D4037;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.project-box {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #5D4037;
+}
+
+.ext-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5D4037;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #5D4037;
+    color: #FFFDD0;
+    padding: 50px 8%;
+    margin-top: 50px;
+}
+
+#footer a {
+    color: #FFFDD0;
+}
+
+@media screen and (max-width: 768px) {
+    #hero h1 {
+        font-size: 3.5em;
+    }
+    
+    .menu-container li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    #hero {
+        height: auto;
+        padding-bottom: 60px;
+    }
+}
