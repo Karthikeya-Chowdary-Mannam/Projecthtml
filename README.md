@@ -47,13 +47,6 @@ A collection of Data Structures and Algorithms problems I have solved.
 👉 Link:
 https://docs.google.com/spreadsheets/d/1AWE15Fy3wD2iqu2vjK_R7cCiuvSsjYQclcdZmHpF66o
 
----
-
-## 🌍 Live Website
-
-👉 (Add your GitHub Pages link here after hosting)
-Example:
-https://your-username.github.io/portfolio/
 
 ---
 
